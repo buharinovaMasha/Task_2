@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace task2.DTO
 {
-    public class Brigade
+    public class Conflict
     {
-        public string Code { get; set; }
+        public string BrigadeCode { get; set; }
+        public string[] DevicesSerials { get; set; }
     }
 }
